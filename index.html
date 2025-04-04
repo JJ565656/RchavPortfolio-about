@@ -101,7 +101,7 @@
         padding: 5px 0px;
       }
       
-      .header h6 {
+      .header h5 {
         color: #6A7E92;
         margin: 0px;
         padding: 50px 0px;
@@ -150,7 +150,7 @@
 .about-right {
   flex: 1.2;
   padding: 60px 60px 80px;
-  background-color: #DFB899; /* same as section so it blends */
+  background-color: #DFB899; 
 }
 
 .about-right p {
@@ -160,8 +160,123 @@
   margin: 0;
 }
 
-
+/** section creative**/
       
+ .creative-process {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .creative-left {
+    flex: 2;
+    background-color: #90B4D3;
+    padding: 60px;
+  }
+
+  .creative-left .section-title {
+    font-family: "Bitter", serif;
+    font-size: 3.25em;
+    font-weight: 800;
+    color: #3E3A39;
+  }
+
+  .creative-left .section-title span {
+    color: #DFB899;
+  }
+
+  .creative-left p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.3em;
+    color: #3E3A39;
+    line-height: 1.9;
+  }
+
+  .creative-right {
+    flex: 1;
+    background-color: #6A7E92; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+  }
+
+  .creative-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .design-philosophy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .philosophy-left {
+    flex: 1;
+    background-color: #DFB899;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .philosophy-left .section-title.alt {
+    font-family: "Bitter", serif;
+    font-size: 3.25em;
+    font-weight: 800;
+    color: #6A7E92;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .philosophy-left .section-title.alt span {
+    color: #F5F1EA;
+  }
+
+  .philosophy-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+  }
+
+  .philosophy-middle {
+    flex: 0.75;
+    background-color: #3E3A39; 
+    padding: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .philosophy-middle p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.3em;
+    color: #F5F1EA;
+    line-height: 1.9;
+  }
+
+  .philosophy-right {
+    flex: 1;
+    background-color: #90B4D3; /* Vyka Lume */
+    padding: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .philosophy-right p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.3em;
+    color: #3E3A39;
+    line-height: 1.9;
+  }
+
+  .quote-block {
+    text-align: center;
+    background-color: #F5F1EA;
+    padding: 100px 20px;
+  }
+
     </style>
   </head>
   <body>
@@ -202,6 +317,52 @@
     </div>
   </div>
 </section>
+
+ <!-- CREATIVE PROCESS SECTION -->
+<section class="creative-process">
+  <div class="creative-left">
+    <h3 class="section-title">CREATIVE PROCESS <span>OR JUST PURE CHAOS?</span></h3>
+    <p>
+      So, my creative process? It depends. If inspiration hits, I’m golden. I already know exactly where it’s going. If not, I start with a mess of sketches, random ideas, or scrolling through designs until something sparks the idea.
+      <br><br>
+      Inspiration comes from anywhere—a weird turn of phrase, a song I can’t get out of my head, even a random trend. If it clicks, it clicks. If not, I keep poking at it until it does. When I hit a block, I take a walk. It’s cliché, but it works. If that fails, I ask my friends to roast my ideas. That always helps.
+      <br><br>
+      My tools of choice? Adobe Suite. But I’m always up for learning something new. I like to stay flexible and pick up whatever gets the job done. And if all else fails, I send it to a friend, act like I want feedback, rename the file “final_FINAL_v2,” and pretend I have done my job.
+    </p>
+  </div>
+  <div class="creative-right">
+    <img src="SUNSET BALI.jpg" alt="Sunset in la brisa bali">
+  </div>
+</section>
+
+<!-- DESIGN PHILOSOPHY SECTION -->
+<section class="design-philosophy">
+  <div class="philosophy-left">
+     <h3 class="section-title alt">KAY, <span>SO…</span></h3>
+    <img src="KID ME.png" alt="Me as kid giving a side eye or judging">
+  </div>
+  <div class="philosophy-middle">
+    <p>
+      At the core of everything I create is storytelling. Design isn’t just about making things look good, it’s about making them feel right. The best work doesn’t just sit there; it pulls you in, makes you think, or maybe even convinces you of something before you realize it. That’s the kind of design I love.
+    </p>
+  </div>
+  <div class="philosophy-right">
+    <p>
+      I don’t chase a specific type of project, just the ones that push me to learn, adapt, and do something unexpected.
+      <br><br>
+      Rules? Great for structure, not so much for limits. I like to treat them as guidelines, borrowing from what has worked before while twisting it into something new. If I’m not learning, I’m probably overanalyzing, and if I am learning, I’m still overanalyzing, but in a way that makes things better.
+    </p>
+  </div>
+</section>
+
+<!-- FINAL QUOTE SECTION -->
+<section class="quote-block">
+  <h5>
+    The goal is always the same:<br>
+    <strong>keep evolving, keep refining, and never settle for just okay<br>when better is still on the table.</strong>
+  </h5>
+</section>
+
 
 
 
